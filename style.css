@@ -18,8 +18,10 @@ body{
 .container{
     display: flex;
     flex-direction: column;
+    min-height: 100vh;
 }
 
+/* header */
 .header-container{
     display: flex;
     flex-direction: column;
@@ -53,7 +55,7 @@ body{
 .header-left-b{
     display: flex;
     flex-direction: column;
-    flex: 0 0 500px;
+    flex: 1 0 500px;
 }
 
 .header-right-b img{
@@ -61,14 +63,37 @@ body{
     width: 700px;
 }
 
+/* info */
+.info-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+}
+
+.box-container{
+    display: flex;
+    flex-direction: row;
+    align-self: stretch;
+    justify-content: space-evenly;
+}
+
+.rounder-box-label{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+.rounded-box{
+    border-radius: 25px;
+    border: solid;
+    height: 120px;
+    width: 120px;
+}
 
 
-
-
-
-
-
-
+/* footer */
 .footer-container{
     display: flex;
     flex-direction: column;
