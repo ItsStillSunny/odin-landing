@@ -56,14 +56,9 @@ body{
     flex: 0 0 500px;
 }
 
-.header-right-b{
-    display: flex;
-    justify-content: flex-end;
-}
-
 .header-right-b img{
-    max-width: 50%;
-    height: auto;
+    height: 380px;
+    width: 700px;
 }
 
 
@@ -81,7 +76,7 @@ body{
     align-items: center;
 
     color: #F9FAF8;
-
+    font-size: 18px;
 
     background-color: #1F2937;
     flex: 0 0 80px;
