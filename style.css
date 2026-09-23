@@ -5,10 +5,11 @@ body{
 
 .signup-button{
     width: 120px;
-    height: 32px;
+    height: 42px;
 
     border-radius: 8px;
     color: #F9FAF8;
+    border: solid;
     background-color: #3882F6;
 
     font-size: 20px;
@@ -111,6 +112,26 @@ body{
     max-width: 800px;
 }
 
+/* call to action */
+.cta-container{
+    display: flex;
+    flex: 1 0 280px;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta-inner{
+    display: flex;
+    gap: 300px;
+
+    padding: 25px 148px;
+    background-color: #3882F6;
+    border-radius: 25px;
+}
+
+.cta-button{
+    align-self: center;
+}
 
 /* footer */
 .footer-container{
